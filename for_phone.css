@@ -1,0 +1,29 @@
+@media (min-width:200px) and (max-width:925px) {
+    summary {
+        display: none;
+    }
+    #signup {
+        width: 90%;
+        font-size: 10px;
+    }
+    span#s1 {
+        display: none;
+    }
+    #thought {
+        display: none;
+    }
+    #Introduction,
+    div#topic1 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .navbtn {
+        font-size: 10px;
+    }
+    nav {
+        height: 30px;
+    }
+    input.inside-form {
+        margin-left: 2px;
+    }
+}

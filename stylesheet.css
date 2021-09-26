@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=PT+Sans+Narrow&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    border-radius: 16px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+.navbtn,
+summary {
+    text-align: center;
+    margin: 0% 6%;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.navbtn:hover {
+    background-color: rgb(76, 247, 253);
+    color: black;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 2s;
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12px;
+    right: 20%;
+}
+
+details a {
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+    background-color: rgb(241, 231, 241);
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 17px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Introduction {
+    border: 2px solid rgb(219, 214, 214);
+    word-wrap: wrap;
+    width: 80%;
+    background-color: #f2e4e4;
+    border-radius: 20px;
+    margin: auto;
+    height: auto;
+    font-size: 24px;
+    margin-top: 50px;
+    line-height: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    padding: 20px;
+    text-align: left;
+    padding-top: 39px;
+    font-family: sans-serif;
+}
+
+#welcomeimage {
+    width: 100%;
+    height: 500px;
+    background: url(/flower-4151900_1920.jpg) center center no-repeat fixed;
+}
+
+#welcomeimage h1,
+h3 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#welcomepara {
+    width: 53%;
+    margin: auto;
+    margin-top: 22px;
+}
+
+#s1 {
+    cursor: not-allowed;
+    width: fit-content;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#thought {
+    text-align: right;
+    font-family: cursive;
+    line-height: 50px;
+}
+
+#topic1 {
+    border: 2px solid rgb(219, 214, 214);
+    word-wrap: wrap;
+    width: 80%;
+    background-color: #f2e4e4;
+    border-radius: 20px;
+    margin: auto;
+    height: auto;
+    font-size: 24px;
+    margin-top: 50px;
+    list-style-position: inside;
+    padding: 15px;
+}
+
+li {
+    font-family: 'Manrope', sans-serif;
+    padding: 5px;
+}
+
+q {
+    padding: 10px;
+    color: teal;
+    word-spacing: 5px;
+}
+
+ul {
+    line-height: 52px;
+}
+
+form {
+    padding: 10px;
+}
+
+#signup {
+    border: 2px solid rgb(4, 255, 242);
+    width: 50%;
+    margin: auto;
+    background-color: hsl(0deg 1% 28%);
+    border-radius: 15px;
+    margin-top: 150px;
+    box-shadow: 10px -10px 15px blueviolet;
+}
+
+form input {
+    background-color: rgb(70, 70, 70);
+    border-bottom: 2px solid rgb(24, 203, 248);
+}
+
+#inside {
+    padding: 0px 20px;
+}
+
+.inside-form {
+    color: white;
+    width: 85%;
+    margin: auto;
+    border: none;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(24, 203, 248);
+    padding-top: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#check {
+    padding-top: 41px;
+    padding-left: 43px;
+    color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#link {
+    margin-top: 30px;
+}
+
+#link a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(63 97 248);
+    text-decoration: none;
+}
+
+#check-box {
+    cursor: pointer;
+    size: 50px;
+}
+
+#signup-btn {
+    width: 153px;
+    height: 40px;
+    font-size: 27px;
+    background-color: #76ffc6;
+    border-radius: 8px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    rotate: skew(20deg);
+}
+
+#signup-btn:hover {
+    background-color: rgb(5, 176, 255);
+    transition-property: all;
+    transition-duration: 1s;
+    transform: skewy(10deg);
+}
+
+hr {
+    margin-top: 50px;
+}
+
+#starting-of-html {
+    border: rgb(219, 214, 214) 2px solid;
+    width: 85%;
+    margin: 50px auto;
+    background-color: #f2e4e4;
+    border-radius: 18px;
+    line-height: 50px;
+}
+
+#pra {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
